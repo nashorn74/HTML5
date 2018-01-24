@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>레이아웃 예제</title>
+	<meta charset="utf-8">
+	<style>
+		div {
+			width: 100px; height: 100px; margin:30px;
+			display: inline-block;
+		}
+		.box1 { border-style: solid; border-width: 5px }
+		.box2 { border-style: dotted; border-width: 15px }
+		.box3 { border-style: dashed; border-width: 10px }
+	</style>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script>
+		showGreenBox = function() { $("#box1").show(); }
+		hideGreenBox = function() { $("#box1").hide(); }
+		addRedBox = function() {
+			$("#box4").append("<div style='background: red;'></div>");
+		}
+	</script>
+</head>
+<body>
+	<div style="background: green;" id="box1" class="box1"></div>
+	<div style="background: orange;" id="box2" class="box2"></div>
+	<div style="background: blue;" id="box3" class="box3"></div>
+	<div style="display: inline;" id="box4"></div>
+	<div style="display: block;">
+		<a href="javascript:showGreenBox();">Box1 보이기</a>
+		<a href="javascript:hideGreenBox();">Box1 숨기기</a>
+		<a href="javascript:addRedBox();">RedBox 추가</a>
+	</div>
+</body>
+</html>

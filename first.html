@@ -3,10 +3,23 @@
 <head>
 	<title>첫번째 HTML</title>
 	<meta charset="utf-8">
+	<style>
+		@import url(//fonts.googleapis.com/earlyaccess/nanumgothic.css);
+		.ng-font {
+			font-family: 'Nanum Gothic', sans-serif;
+		}
+		#em1size { font-size:1em; }
+		#em2size { font-size:2em; }
+		#em3size { font-size:3em; }
+	</style>
 </head>
 <body>
 	<h1>시간이란...</h1>
-	<p>내일 죽을 것처럼 오늘을 살고<br>
+	<p class="ng-font" id="em1size">내일 죽을 것처럼 오늘을 살고<br>
+	영원히 살 것처럼 내일을 꿈꾸어라</p>
+	<p class="ng-font" id="em2size">내일 죽을 것처럼 오늘을 살고<br>
+	영원히 살 것처럼 내일을 꿈꾸어라</p>
+	<p class="ng-font" id="em3size">내일 죽을 것처럼 오늘을 살고<br>
 	영원히 살 것처럼 내일을 꿈꾸어라</p>
 	<img src="images/first.jpg">
 </body>

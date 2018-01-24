@@ -1,0 +1,28 @@
+ul {
+	color:blue;
+	list-style-type: square;
+}
+.accent { 
+	font-weight: bold; 
+	font-size:2em; color:red; 
+}
+#wrapper { 
+	width:400px; padding:10px; 
+	border:1px; solid black; 
+	background-color: #CCFF99; 
+}
+p {
+	font-style: italic; color:blue;
+}
+p { color:red !important; }
+h1 { color:blue; }
+#habor {
+	border: 1px; solid gray;
+	padding: 10px; color:green;
+}
+.heading { color:red; }
+#container {
+	background-color: #ff6a00;
+	width: 400px; height: 200px;
+	margin:0 auto;
+}
