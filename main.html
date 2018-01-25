@@ -3,23 +3,49 @@
 <head>
 	<title>메인 화면</title>
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body>
-	<a href="login.html">로그아웃</a>
-	<table border="1">
-		<thead>
-			<tr><th>구분</th><th>1학기 중간고사</th><th>1학기 기말고사</th><th>2학기 중간고사</th><th>2학기 기말고사</th></tr>
-		</thead>
-		<tbody>
-			<tr><th>국어</th><td>100</td><td>100</td><td>100</td><td>100</td></tr>
-			<tr><th>영어</th><td>100</td><td>100</td><td>100</td><td>100</td></tr>
-			<tr><th>수학</th><td>100</td><td>100</td><td>100</td><td>100</td></tr>
-			<tr><th>정보</th><td>100</td><td>100</td><td>100</td><td>100</td></tr>
-			<tr><th>미술</th><td>100</td><td>100</td><td>100</td><td>100</td></tr>
-		</tbody>
-		<tfoot>
-			<tr><th>합계</th><td>500</td><td>500</td><td>500</td><td>500</td></tr>
-		</tfoot>
-	</table>
+	<div class="container">
+	  <div class="jumbotron">
+	    <h1>한기대 교육시스템</h1> 
+	    <p>HTML5+CSS3 웹앱 실무 과정</p> 
+	  </div>
+	</div>
+
+	<div class="container">
+		<div class="alert alert-success">
+		  <strong>홍길동님!</strong> 시스템 접속을 환영합니다. <a href="login.html"><button type="button" class="btn btn-primary btn-xs">로그아웃</button></a>
+		</div>
+		<div class="row">
+		    <div class="col-sm-12">
+		    	
+				<table class="table">
+					<thead>
+						<tr class="info"><th>구분</th><th>1학기 중간고사</th><th>1학기 기말고사</th><th>2학기 중간고사</th><th>2학기 기말고사</th></tr>
+					</thead>
+					<tbody>
+						<tr><th>국어</th><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+						<tr><th>영어</th><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+						<tr><th>수학</th><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+						<tr><th>정보</th><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+						<tr><th>미술</th><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+					</tbody>
+					<tfoot>
+						<tr class="info"><th>합계</th><td>500</td><td>500</td><td>500</td><td>500</td></tr>
+					</tfoot>
+				</table>
+		    </div>
+		</div>
+	</div>
+	
 </body>
 </html>
